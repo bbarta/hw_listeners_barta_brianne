@@ -35,7 +35,7 @@ input {
 }
 
 
-#divider {
+.divider {
     border: 3px solid #FA4616	;
 }
 
@@ -46,4 +46,29 @@ input {
 
 #trivia h2 {
     padding: 20px;
+}
+
+
+#riddle {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#trivia h2 {
+    padding: 20px;
+}
+
+#colors {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hex1 {
+    color: #FA4616;
+}
+
+#hex2 {
+    color: #0021A5
 }

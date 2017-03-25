@@ -1,3 +1,4 @@
+//#4
 heading.addEventListener("click", myFunction);
 
 
@@ -12,7 +13,7 @@ function myFunction() {
 };
 
 
-
+//Form (#5)
 var nameInput1 = document.getElementById('firstname');
 var nameInput2 = document.getElementById('lastname');
 var nameInput3 = document.getElementById('email');
@@ -31,7 +32,7 @@ document.querySelector('form.event').addEventListener("submit", function (e) {
 });
 
 
-
+//These event listeners listen for a click and expands to show an answer!
 document.getElementById("q1").addEventListener("click", function(){
     document.getElementById("a1").innerHTML = "1853";
 });
@@ -43,3 +44,12 @@ document.getElementById("q2").addEventListener("click", function(){
 document.getElementById("q3").addEventListener("click", function(){
     document.getElementById("a3").innerHTML = "52,519";
 });
+
+
+//This event listens for a mouseover and modifies the HTML to reveal an answer
+riddles.addEventListener("mouseover", riddleFunction)
+
+function riddleFunction() {
+    var riddle = document.getElementById('r1');
+    document.getElementById("r1").innerHTML = 'To get his diploma, of course!';
+};
