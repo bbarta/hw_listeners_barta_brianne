@@ -24,8 +24,8 @@ document.querySelector('form.event').addEventListener("submit", function (e) {
     //prevent the normal submission of the form
     e.preventDefault();
 
-    console.log(nameInput1.value);
-    console.log(nameInput2.value);
-    console.log(nameInput3.value);
-    console.log(nameInput4.value);
+    console.log('The firstName is ' + nameInput1.value);
+    console.log('The lastName is ' + nameInput2.value);
+    console.log('The email is ' + nameInput3.value);
+    console.log('The message is ' + nameInput4.value);
 });
