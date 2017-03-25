@@ -1,0 +1,33 @@
+body {
+    background-color: #CBF6FF;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#heading {
+    text-align: center;
+}
+
+input {
+    border-color: #0000A0;
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.textarea {
+    padding-top: 40px;
+}
+
+
+.submit {
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+}

@@ -9,10 +9,26 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-  <div class='container'>
+  <header>
     <h1 id="heading" onclick="myFunction">Click Me</h1>
-  </div>
+  </header>
+    <div id="container">
+      <form action="/action_page.php">
+          First name:<br>
+          <input type="text" name="firstname">
+          <br><br>
+          Last name:<br>
+          <input type="text" name="lastname">
+          <br><br>
+          Email:<br>
+          <input type="text" name="email">
+          <br><br>
+          Message:<br>
+          <input type="textarea" class="textarea" name="message">
+          <br><br>
+          <input type="submit" class="submit">
+          </form>
+    </div>
   <script src="js/main.js"></script>
 </body>
 </html>
