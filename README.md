@@ -26,3 +26,5 @@ I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
 Starting out, I was incredibly frustrated and overwhelmed while tackling this homework assignment. I had trouble with the first event listener and I let it drive me crazy, but I had no choice but to move on. I wish I had more time on this to really do more trial and error and get to the bottom of what I'm doing wrong, but the rest of the assignment got easier. I was very discouraged at first but I'm pretty happy with what I was able to accomplish! Thankfully, I used lots of resources. This stuff is HARD!
+
+P.S. I changed my foldername to reflect hw_listeners_barta_brianne and it really confused Atom and the current location of my files. I had to dig back and transfer over the code into a new folder and recommit/resubmit/repush. It should be all set! Phew!
