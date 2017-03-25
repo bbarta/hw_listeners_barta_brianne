@@ -53,3 +53,10 @@ function riddleFunction() {
     var riddle = document.getElementById('r1');
     document.getElementById("r1").innerHTML = 'To get his diploma, of course!';
 };
+
+//This event listens for a copy to the clipboard and then displays a message
+colors.addEventListener("oncopy", colorFunction)
+    function colorFunction() {
+        var color = document.getElementById("color1").innerHTML = "It's Great to be"
+        var color = document.getElementById("color2").innerHTML = "a Florida Gator!"
+    }
