@@ -2,16 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Event Listeners</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <header>
+    <h1 id="heading" onclick="myFunction">Click Me</h1>
+  </header>
+    <div id="container">
+      <form class="event">
+          First name:<br>
+          <input id="firstname" type="text" name="firstname">
+          <br><br>
+          Last name:<br>
+          <input id="lastname" type="text" name="lastname">
+          <br><br>
+          Email:<br>
+          <input id="email" type="text" name="email">
+          <br><br>
+          Message:<br>
+          <input id="message" type="textarea" class="textarea" name="message">
+          <br><br>
+          <input type="submit" id="button" class="submit" name="submit">
+          </form>
+    </div>
+    <div id="trivia">
+      <hr class="divider"/>
+      <h2>UF Trivia</h2>
+      <h3>Click the question to reveal the answer.</h3>
 
+        <section id="questions">
+          <button id="q1">What year was UF founded?</button>
+            <p id="a1"></p>
+          <button id="q2">Who is the President?</button>
+            <p id="a2"></p>
+          <button id="q3">How many students are there?</button>
+              <p id="a3"></p>
+          </section>
+    </div>
 
+    <div id="riddle">
+      <hr class="divider"/>
+      <h2>UF Riddle</h2>
+      <h3>Mouseover the riddle to reveal the punchline.</h3>
 
-    <script src="js/main.js"></script>
+        <section id="riddles">
+          <p id="r1">Why did the gator cross the stage?</p>
+        </section>
+    </div>
+
+    <div id="colors">
+      <hr class="divider"/>
+      <h2>UF Colors</h2>
+      <h3>Copy the school color hex codes below to use them in your own designs!</h3>
+
+        <section id="bothcolors">
+            <h3 id="hex1" oncopy="colorFunction()">#FA4616</h3>
+                <p id="color1"></p>
+            <h3 id="hex2" oncopy="colorFunction()">#0021A5</h3>
+                <p id="color2"></p>
+        </section>
+    </div>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

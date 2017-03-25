@@ -1,0 +1,74 @@
+body {
+    background-color: #CBF6FF;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#heading {
+    text-align: center;
+    padding: 20px;
+    color: #FA4616;
+}
+
+input {
+    border-color: #0000A0;
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 100px;
+}
+
+
+.submit {
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+.divider {
+    border: 3px solid #FA4616	;
+}
+
+#trivia {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#trivia h2 {
+    padding: 20px;
+}
+
+
+#riddle {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#trivia h2 {
+    padding: 20px;
+}
+
+#colors {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hex1 {
+    color: #FA4616;
+}
+
+#hex2 {
+    color: #0021A5
+}
