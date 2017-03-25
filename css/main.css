@@ -12,6 +12,7 @@ body {
 #heading {
     text-align: center;
     padding: 20px;
+    color: #FA4616;
 }
 
 input {
@@ -31,4 +32,18 @@ input {
     background-color: white;
     border-radius: 5px;
     width: 100px;
+}
+
+
+#divider {
+    border: 3px solid #FA4616	;
+}
+
+#trivia {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#trivia h2 {
+    padding: 20px;
 }
